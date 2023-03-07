@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-security-with-jwt
+    username: blaise
+    password: postgres123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
